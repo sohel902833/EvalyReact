@@ -1,0 +1,18 @@
+
+.body-top-brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.body-top-brand > div{
+        width: 184px;
+        height: 130px;
+        margin: 10px;
+}
+.body-top-brand>div img{
+
+    height: 100%;
+    width: 100%;
+
+}

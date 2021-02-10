@@ -1,0 +1,68 @@
+.main-container{
+     background:#F7F8FA;
+     max-width: 1240px;
+     margin:0 auto;
+     text-align: center;
+}
+
+.navigation-1{
+    height: 80px;
+    max-width: 100%;
+}
+.navigation-2{
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.body-top{
+    overflow: hidden;
+}
+
+.body-top-sidebar{
+    width: 30%;
+    float: left;
+    height: 600px;
+
+}
+.body-top-carosalbar{
+    padding: 10px;
+    width: 70%;
+    float: right;
+    height: 600px;
+
+}
+
+
+.body-top-carosalbar-top{
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+
+.body-top-carosalbar-bottom{
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+}
+
+
+.body-two{
+    text-align: center;
+    line-height:200px;
+    overflow: hidden;
+}
+
+
+.shop-by-brand{
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.product-computer{
+    
+}
+
+
+
+
+

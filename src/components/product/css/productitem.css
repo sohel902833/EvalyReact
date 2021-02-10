@@ -1,0 +1,50 @@
+
+.shopbycategory-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    float: left;
+}
+.shopbycategory-bottom> div{
+    direction: inherit;
+    float: left;
+    width:227px;
+    height: 330px;
+    text-align: center;
+    background: #fff;
+    margin: 10px;
+    border: 1px solid #000;
+
+    border-radius: 10px;
+}
+.shopbycategory-bottom> div:hover{
+
+    box-shadow: 10px 10px 10px #000000;
+    cursor: pointer;
+
+
+}
+.shopbycategory-bottom>div img{
+    width: 100%;
+    height: 170px;
+    transition: 0.5s;
+    border-radius: 10px 10px 0px 0px ;
+}
+.shopbycategory-bottom>div:hover img{
+    height: 180px;
+    transition: 0.5s;
+}
+.shopbycategory-bottom>div .name{
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+.shopbycategory-bottom>div .price{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+
+

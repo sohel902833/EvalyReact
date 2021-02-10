@@ -1,0 +1,44 @@
+.shopbycategory-top{
+    width: 100%;
+    height: 60px;
+
+}
+.shopbycategory-top h2{
+    float: left;
+    margin-left: 25px;
+}
+
+.shopbycategory-top    .search{
+    float: right;
+    position:  relative;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.shopbycategory-top .search input[type="text"]{
+    width: 300px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid  #212A30;
+    border-radius: 5px;
+
+}
+
+
+.shopbycategory-top .search .searchbutton{
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    width: 90px;
+
+}
+
+.shopbycategory-top .search .searchbutton button{
+    width: 90px;
+    background: #212A30;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+
+

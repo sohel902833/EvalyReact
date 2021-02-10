@@ -1,0 +1,32 @@
+.register{
+    max-width: 760px;
+    margin:0 auto;
+}
+.register p{
+    color:red;
+    margin:0px;
+    padding:0px;
+}
+
+
+.register input[type="text"], input[type="email"], input[type="password"]{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+     
+    
+}
+
+.register input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+   outline: none;
+   border: 2px solid #0069D9;
+  box-shadow: 0px 0px 1px 1px #0069D6;
+
+}
+
+.error{
+     outline: none;
+   border: 1px solid red;
+  box-shadow: 0px 0px 1px 1px red;
+}

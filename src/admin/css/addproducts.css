@@ -1,0 +1,44 @@
+.addProduct{
+    width: 384px;
+    margin-left: 25px;
+    border: 2px solid #0d943f;
+    text-align: center;
+}
+
+img{
+    width:100px;
+    height: 140px;
+}
+.addProduct input[type="text"]{
+    width: 340px;
+    padding: 7px;
+    transition: 0.5s;
+}
+.addProduct input[type='text']:focus{
+    width:380px ;
+    border: 2px solid #0d943f;
+}
+.addProduct label{
+    font-size: 20px;
+}
+.addProduct select{
+    width: 340px;
+    padding: 7px;
+    transition: 0.5s;
+}
+.addProduct select:focus{
+    width:380px ;
+    border: 2px solid #0d943f;
+}
+.addProduct input[type="file"]{
+    width: 340px;
+    background: #0d943f;
+}
+.error{
+    color: red;
+    margin: 0px;
+    padding: 0px;
+}
+.addProduct button{
+    margin: 0 auto;
+}
